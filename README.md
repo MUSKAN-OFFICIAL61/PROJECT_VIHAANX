@@ -1,4 +1,4 @@
-D
+
 <div align="center">
 SKILLORA
 AI-Powered Career Intelligence & Readiness Platform
