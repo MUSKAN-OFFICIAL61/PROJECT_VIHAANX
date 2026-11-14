@@ -1,144 +1,76 @@
-<div align="center">🚀 SKILLORA
+D
+<div align="center">
+SKILLORA
 AI-Powered Career Intelligence & Readiness Platform
-Don't Just List Your Skills. Prove Your Potential.
 
-Connect your skills, projects, and achievements to real career requirements — and discover what it takes to become opportunity-ready.
+Don't just list your skills. Prove your potential.
 
+Show Image Show Image Show Image
 
+Overview • Features • Architecture • Tech Stack • Getting Started • Roadmap
 
-</div>📌 About
-Students build their professional identity across resumes, LinkedIn, GitHub, coding platforms, projects, certifications, and achievements. But these details are scattered, making it difficult to understand whether their skills are supported by evidence, whether they meet a company's requirements, and what they should improve next.
+</div>
+Overview
 
-SKILLORA is an AI-powered career intelligence platform that brings this information together and connects a student's current profile with career requirements and relevant opportunities.
+Students build their professional identity across resumes, LinkedIn, GitHub, coding platforms, projects, and hackathons. These achievements are scattered, and it is hard to see how they translate into real career opportunities.
 
-Unlike a platform focused only on resume analysis or job listings, SKILLORA is designed around a continuous career-development cycle:
+SKILLORA is an AI-powered career intelligence platform that consolidates this information to verify skills, measure career readiness, identify gaps, and recommend what to improve next.
 
-Evaluate → Check Readiness → Discover Opportunities → Improve → Re-evaluate
-🎯 Problem Statement
-Students use multiple platforms to manage different parts of their career journey:
-- Resume tools evaluate resumes.
-- GitHub showcases projects and contributions.
-- Coding platforms display problem-solving activity.
-- Job portals list openings.
-- Hackathon platforms publish competitions.
-However, students still have to connect these details themselves. They often lack a clear picture of:
-- Whether their claimed skills are supported by actual work.
-- How closely their profile matches a target job or internship.
-- Which eligibility requirements they meet or miss.
-- What skills, projects, or experience they should work on next.
-SKILLORA aims to bridge the gap between what students claim, what they can demonstrate, and what opportunities require.
-⭐ Core Intelligence Engines
-The three engines below form the central concept of SKILLORA.
+It answers three questions:
+
+Are your claimed skills backed by evidence?
+How ready are you for a specific role or company?
+What should you improve to become a stronger candidate?
+Problem Statement
+
+Existing tools solve isolated problems: resume optimisation, coding statistics, or job discovery. None of them connects claimed skills, demonstrated ability, and target opportunities into a single view.
+
+As a result, students cannot easily judge their true skill level, their eligibility for specific roles, or the steps needed to reach their goals.
+
+SKILLORA addresses this gap with an integrated, evidence-based approach.
+
+Core Intelligence Engines
 1. Claim vs Proof Engine
-Turn skill claims into evidence-backed insights.
 
-A student may claim skills such as Python, DSA, Full Stack Development, or Machine Learning. SKILLORA compares these claims with available evidence from connected platforms and submitted work.
+Checks whether declared skills are supported by real evidence from repositories, projects, coding platforms, and achievements.
 
-Key capabilities
-- Compare declared skills with available project and repository evidence.
-- Analyse GitHub repositories and project descriptions.
-- Use coding-platform data where supported integrations are available.
-- Review submitted certificates and achievements.
-- Highlight skills that are demonstrated, partially demonstrated, or lack sufficient evidence.
-Result	Meaning
-🟢 Verified	Strong supporting evidence found.
-🟡 Partially Supported	Some relevant evidence exists, but it is limited.
-⚪ Unverified	Not enough evidence is currently available.
-🔵 Needs Review	Evidence is unclear, incomplete, or conflicting.
+Capabilities
 
+Claimed skills vs demonstrated skills comparison
+GitHub repository analysis
+Coding platform performance evaluation
+Project-based skill validation
+Achievement verification
 
-Missing evidence does not automatically mean a skill claim is false.
+Verification statuses
 
+Status	Meaning
+🟢 Verified	Strong supporting evidence found
+🟡 Partially Supported	Limited supporting evidence
+⚪ Unverified	Insufficient evidence
+🔵 Needs Review	Evidence is unclear or conflicting
 2. Career Readiness & Eligibility Engine
-Understand how closely your profile matches a target role.
 
-Students can select a company, job role, or internship and compare their profile with the opportunity's stated requirements.
+Evaluates a profile against the requirements of a specific company, job, or internship.
 
-Key capabilities
-- Required skills vs. demonstrated skills.
-- Academic requirements, CGPA, and graduation-year checks.
-- Relevant project and experience analysis.
-- Coding-performance insights, where relevant.
-- Missing qualifications and skill-gap identification.
-- Explainable readiness and eligibility insights.
-SKILLORA provides an informational assessment based on available data. Final eligibility and hiring decisions remain with the organisation.
+Capabilities
+
+Company-specific readiness assessment
+Required vs available skills matching
+Academic eligibility checks (CGPA, graduation year)
+Project and experience analysis
+Missing qualification identification
+Career Compatibility Score, calculated from skills match, verified evidence, academic eligibility, and experience
+
+Output: a readiness report covering strengths, eligibility gaps, and areas to improve.
+
 3. Opportunity-to-Readiness System
-Don't just discover opportunities. Build a path towards them.
 
-SKILLORA connects opportunity discovery with actionable preparation.
+Turns a target opportunity into an actionable improvement plan.
 
-How it works
-1. Explore a job, internship, or hackathon.
-2. Compare its requirements with your profile.
-3. Identify missing skills, experience, or qualifications.
-4. Get suggested improvement actions, such as building a relevant project.
-5. Track progress as new skills and evidence are added.
-6. Re-evaluate your readiness.
-The goal is to help students understand not only which opportunities match their current profile, but also what they can improve to become stronger candidates.
-🧩 Supporting Features
-The core engines are supported by modules that collect, organise, and analyse professional information.
-Module	What it does
-Resume Intelligence	Resume parsing, ATS-oriented checks, section analysis, missing keywords, and role-specific suggestions.
-LinkedIn Intelligence	Headline, About section, skills, experience, profile completeness, and resume consistency analysis.
-Unified Professional Profile	Brings together education, skills, projects, experience, coding profiles, certifications, and achievements.
-Project & Technical Skills Analyzer	Reviews project and repository evidence, technology stack, complexity, documentation, and code quality.
-Opportunity Discovery	Helps discover jobs, internships, hackathons, and competitions with requirements and official links.
-Profile Growth Tracker	Tracks profile changes, newly added evidence, progress, and improvement history.
-AI Career Guidance	Suggests career paths and prioritised actions based on goals and identified gaps.
+Capabilities
 
-
-🔄 How SKILLORA Works
-                  STUDENT
-                     |
-                     ▼
-        UNIFIED PROFESSIONAL PROFILE
-                     |
-          ┌──────────┼───────────┐
-          ▼          ▼           ▼
-        RESUME    LINKEDIN     GITHUB
-                     CODING PROFILES
-                     PROJECTS
-          └──────────┼───────────┘
-                     ▼
-           CLAIM VS PROOF ENGINE
-                     |
-                     ▼
-       CAREER READINESS & ELIGIBILITY
-                     |
-                     ▼
-        OPPORTUNITY-TO-READINESS
-                     |
-          ┌──────────┼───────────┐
-          ▼          ▼           ▼
-         JOBS    INTERNSHIPS  HACKATHONS
-                     |
-                     ▼
-             IDENTIFY PROFILE GAPS
-                     |
-                     ▼
-         PERSONALIZED ACTION ROADMAP
-                     |
-                     ▼
-            BUILD SKILLS & EVIDENCE
-                     |
-                     ▼
-              RE-EVALUATE PROFILE
-                     |
-                     └──────────↺
-💡 What Makes SKILLORA Different?
-Traditional Approach	SKILLORA's Intended Approach
-Lists skills entered by a candidate	Compares skill claims with available evidence
-Evaluates a resume in isolation	Builds a broader professional profile
-Shows job listings	Explains profile fit and requirement gaps
-Displays coding statistics	Uses available coding evidence in skill assessment
-Recommends general learning	Connects improvement actions to target opportunities
-Treats analysis as a one-time task	Supports re-evaluation as new evidence is added
-
-
-Core idea: Connect what a student claims, what they can demonstrate, what an opportunity requires, and what they should improve next.
-👥 Who Is It For?
-- College students building their first professional profile.
-- Aspiring developers who want to demonstrate their technical skills.
-- Students preparing for internships and placements.
-- Hackathon participants searching for relevant competitions.
-- Early-career candidates planning their next career move.
+Gap analysis between current profile and target role
+Prioritised skill and project recommendations
+Step-by-step improvement roadmap
+Progress tracking as new evidence is added
