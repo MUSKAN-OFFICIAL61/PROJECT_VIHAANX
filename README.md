@@ -1,217 +1,181 @@
-# PROJECT_VIHAANX
+<div align="center">
 
-SKILLORA
+# ✨ SKILLORA
 
-AI-Powered Career Profile Analyzer
+### AI-Powered Career Intelligence & Profile Analyzer
 
-Your Profile. Your Potential. Your Proof.
+**Your Skills. Your Evidence. Your Opportunities.**
 
-CareerLens is an AI-powered career intelligence platform designed to help students and job seekers evaluate their professional profiles, identify skill gaps, verify achievements through supporting evidence, and discover suitable job and internship opportunities.
+An intelligent platform that analyzes your professional identity, evaluates your capabilities, verifies your achievements, and connects your potential with real career opportunities.
 
-Unlike traditional resume analyzers, CareerLens evaluates a candidate's complete professional profile, including resumes, technical skills, projects, hackathons, coding profiles, and professional achievements.
+<br/>
 
-🎯 Problem Statement
+**AI-Powered Analysis · Evidence-Based Evaluation · Career Intelligence**
 
-Students often struggle to understand how strong their professional profiles actually are.
+</div>
 
-They may have multiple skills, projects, certifications, hackathon experiences, and coding achievements but lack a clear understanding of:
+---
 
-Whether their resume meets industry expectations.
+## 🎯 About The Project
 
-Whether their claimed skills have sufficient supporting evidence.
+**SKILLORA** is an AI-powered career intelligence platform designed to help students and job seekers understand their actual professional potential.
 
-How recruiters might evaluate their profiles.
+Traditional resume analyzers focus primarily on resume optimization. SKILLORA goes beyond resumes by evaluating a candidate's complete professional profile, including technical skills, projects, hackathons, coding profiles, certifications, academic performance, and achievements.
 
-Which job roles and internships match their current capabilities.
+The platform transforms scattered professional information into meaningful insights, helping candidates understand where they stand, what they are missing, and how they can become stronger candidates.
 
-Which skills they need to improve to become placement-ready.
+## 🚨 Problem Statement
 
-Existing tools primarily focus on resume optimization rather than complete professional profile evaluation.
+Students often develop multiple technical skills, participate in hackathons, build projects, earn certifications, and solve coding problems. However, they struggle to understand how these achievements translate into actual career opportunities.
 
-CareerLens solves this problem by combining AI-driven analysis, evidence-based verification, and intelligent career recommendations in one platform.
+Some common challenges include:
 
-✨ Key Features
+- Not knowing whether their resume meets industry expectations.
+- Having difficulty evaluating their actual technical strengths.
+- Mentioning skills without sufficient supporting evidence.
+- Not understanding how recruiters perceive their profiles.
+- Struggling to identify suitable jobs and internships.
+- Not knowing which skills or achievements they should improve.
 
-1. AI Resume Analyzer
+**SKILLORA addresses these challenges through AI-driven profile analysis, evidence-based evaluation, and intelligent career recommendations.**
 
-Upload PDF/DOCX resumes.
+---
 
-Extract education, skills, projects, and experience.
+## ✨ Key Features
 
-Calculate ATS compatibility scores.
+### 01. AI Resume Analyzer
+Intelligently evaluate resumes and identify areas for improvement.
 
-Identify missing keywords.
+- PDF/DOCX resume upload.
+- Automatic extraction of education, skills, projects, and experience.
+- ATS compatibility scoring.
+- Missing keyword detection.
+- Weak content identification.
+- AI-powered improvement suggestions.
 
-Detect weak resume descriptions.
+### 02. Complete Profile Analyzer
+Analyze a candidate's complete professional identity through multiple data sources.
 
-Generate AI-powered improvement suggestions.
+- GitHub profile analysis.
+- LeetCode statistics.
+- CodeChef performance.
+- LinkedIn profile.
+- Hackathon achievements.
+- Certifications.
+- Academic records.
+- Technical skills and projects.
 
-2. Complete Profile Analyzer
-
-Analyze multiple professional data sources:
-
-GitHub profiles.
-
-LeetCode statistics.
-
-CodeChef performance.
-
-LinkedIn profiles.
-
-Hackathon achievements.
-
-Certifications.
-
-Academic records.
-
-Technical skills and projects.
-
-3. Profile Strength Score
-
+### 03. Profile Strength Score
 Generate an overall professional profile score out of 100.
 
 Evaluate:
 
-Resume Quality.
+- Resume Quality.
+- Technical Skills.
+- Project Strength.
+- Hackathons & Achievements.
+- Coding Performance.
+- Internship & Experience.
+- Academic Performance.
+- Professional Presentation.
 
-Technical Skills.
+Provide category-wise scores, strengths, weaknesses, and detailed evaluation insights.
 
-Project Strength.
+### 04. Claim vs Proof Engine ⭐
+One of SKILLORA's major differentiating features.
 
-Hackathons & Achievements.
+Compare the skills and achievements mentioned in a candidate's resume against available supporting evidence.
 
-Coding Performance.
+**Examples:**
 
-Internship & Experience.
+- Python expertise vs GitHub repositories.
+- DSA proficiency vs coding statistics.
+- Full-stack development vs actual projects.
+- Hackathon achievements vs certificates and official result links.
 
-Academic Performance.
+**Verification Status:**
+- 🟢 Verified
+- 🟡 Partially Supported
+- ⚪ Unverified
+- 🔵 Needs Review
 
-Professional Presentation.
+The system distinguishes between missing evidence and false claims.
 
-4. Claim vs Proof Engine ⭐
+### 05. Hackathon & Achievement Analyzer
+Evaluate extracurricular and professional achievements.
 
-One of CareerLens's key differentiating features.
+- Hackathon participation and wins.
+- Technical contributions.
+- Certifications.
+- Open-source contributions.
+- Leadership experience.
+- Extracurricular achievements.
 
-Compare the skills and achievements mentioned in a resume against available supporting evidence.
+### 06. Project Strength Analyzer
+Evaluate projects based on their technical and practical value.
 
-Examples:
+- Technical complexity.
+- Innovation.
+- Technology stack.
+- Functionality.
+- Code quality.
+- Documentation.
+- Real-world impact.
 
-Python expertise vs GitHub repositories.
+### 07. Recruiter Perspective Analyzer
+Evaluate candidate profiles from a recruiter's perspective.
 
-DSA proficiency vs coding statistics.
+Generate insights about:
 
-Full-stack development vs actual projects.
+- First Impression.
+- Strongest Points.
+- Weaknesses.
+- Potential Rejection Reasons.
+- Interview Readiness.
+- Profile Improvement Suggestions.
 
-Hackathon achievements vs certificates and official result links.
-
-Verification statuses:
-
-Verified.
-
-Partially Supported.
-
-Unverified.
-
-Needs Review.
-
-Missing evidence is not automatically treated as false information.
-
-5. Hackathon & Achievement Analyzer
-
-Evaluate:
-
-Hackathon participation and wins.
-
-Technical contributions.
-
-Certifications.
-
-Open-source contributions.
-
-Leadership experience.
-
-Extracurricular achievements.
-
-6. Project Strength Analyzer
-
-Evaluate projects based on:
-
-Technical complexity.
-
-Innovation.
-
-Technology stack.
-
-Functionality.
-
-Code quality.
-
-Documentation.
-
-Real-world impact.
-
-7. Recruiter Perspective Analyzer
-
-Simulate a recruiter reviewing a candidate's profile.
-
-Generate:
-
-First Impression.
-
-Strongest Points.
-
-Weaknesses.
-
-Potential Rejection Reasons.
-
-Interview Readiness.
-
-Profile Improvement Suggestions.
-
-8. Job & Internship Matching
-
-Match candidate profiles with available opportunities.
+### 08. Job & Internship Matching
+Match candidate profiles with relevant job and internship opportunities.
 
 Display:
 
-Company and Job Role.
+- Company and Job Role.
+- Required Skills.
+- Eligibility Criteria.
+- Salary/Stipend.
+- Location.
+- Application Deadline.
+- Official Application Link.
+- Profile Match Percentage.
 
-Required Skills.
+### 09. Company-Specific Analyzer
+Evaluate a candidate's suitability for specific companies and job roles.
 
-Eligibility Criteria.
+Identify:
 
-Salary/Stipend.
+- Required vs Available Skills.
+- Academic Eligibility.
+- Experience Requirements.
+- Missing Qualifications.
+- Skill Gaps.
+- Improvement Priorities.
 
-Location.
+### 10. AI Career Roadmap
+Generate personalized recommendations based on the candidate's current profile and career goals.
 
-Application Deadline.
+Help candidates understand what they should learn, improve, build, and achieve to become more career-ready.
 
-Official Application Link.
+### 11. Profile Growth Tracker
+Track professional development and improvements over time.
 
-Profile Match Percentage.
+Monitor:
 
-9. Company-Specific Analyzer
+- Overall Profile Score.
+- Technical Skills.
+- Projects.
+- Achievements.
+- Coding Performance.
+- Resume Quality.
 
-Compare a candidate's profile against specific company and job-role requirements.
+---
 
-Identify skill gaps, eligibility issues, and improvement priorities.
-
-10. AI Career Roadmap
-
-Generate personalized recommendations to improve professional skills and career readiness.
-
-11. Profile Growth Tracker
-
-Track improvements in:
-
-Overall Profile Score.
-
-Technical Skills.
-
-Projects.
-
-Achievements.
-
-Coding Performance.
-
-Resume Quality.
